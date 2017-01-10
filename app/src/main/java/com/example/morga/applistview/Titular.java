@@ -8,11 +8,13 @@ public class Titular
 {
     private String titulo;
     private String subtitulo;
+    private String imagen;
 
-    public Titular (String tit, String sub)
+    public Titular (String tit, String sub, String im)
     {
         titulo=tit;
         subtitulo=sub;
+        imagen=im;
     }
 
     public String getTitulo()
@@ -24,4 +26,6 @@ public class Titular
     {
         return subtitulo;
     }
+
+    public String getImagen() { return imagen; }
 }
